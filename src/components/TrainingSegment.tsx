@@ -20,7 +20,7 @@ function TrainingSegment({ index }: any) {
                 aria-controls={`training-segment-${index}-summary`}
                 id={`training-segment-${index}-summary`}
             >
-                Segment {index}.
+                <strong>Segment treningowy {index}.</strong>
             </AccordionSummary>
             <AccordionDetails>
                 <p>Rodzaj treningu</p>

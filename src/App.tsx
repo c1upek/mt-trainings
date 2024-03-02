@@ -20,7 +20,7 @@ function App() {
     }
 
     return (
-        <div className="App">
+        <div className="p-4">
             {trainingSegmentsDisplay}
             <div><button onClick={handleAddTrainingSegment}>NADUŚ ABY DODAĆ</button></div>
         </div>

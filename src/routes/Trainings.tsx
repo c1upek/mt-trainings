@@ -21,7 +21,7 @@ function Trainings() {
     }
 
     return (
-        <div className="p-4">
+        <div>
             {trainingSegmentsDisplay}
             <div>
                 <button onClick={handleAddTrainingSegment}>
